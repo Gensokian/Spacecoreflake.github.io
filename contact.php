@@ -12,5 +12,4 @@ $MESSAGE_BODY .= "Message: ".nl2br($_POST["Message"])."";
 mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure");
 ?>
 
-<center><h1>You will be back on the page in 5 Seconds!</h1></center>
-<meta http-equiv="refresh" content="5; url=http://gdriv.es/mlp">
+<center><h1>Thank you :D!</h1></center>
